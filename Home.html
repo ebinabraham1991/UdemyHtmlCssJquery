@@ -3,30 +3,55 @@
 
 <head>
     <title>Home</title>
-     <style>
-         div{
-             border:4px solid wheat;;
-             margin:4px;
-         }
-         body{
-             font-family: sans-serif;
-             font-size:  16px;
-             font-weight: light;
-             font-style: italic;
-         }
-         h1{
-            font-variant: small-caps;
-            font-style: normal;
-         }
-     </style>
+    <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        div {
+            border: 4px solid wheat;
+            ;
+            margin: 4px;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: light;
+            font-style: italic;
+            /* font-variant: small-caps; */
+        }
+
+        h1 {
+
+            font: bold 40px small-caps;
+            color: rgb(30, 105, 124);
+            text-align: center;
+            text-decoration: underline yellowgreen solid;
+            text-transform: capitalize;
+            text-shadow: 4px 6px 4px rgb(163, 157, 168);
+            /* direction: rtl;
+            unicode-bidi: bidi-override; */
+        }
+/* span{
+    font:bold 30px small-caps black;
+} */
+        .ParagraphSpacing {
+            text-indent: 8px;
+            letter-spacing: 2px;
+            
+            /* line-height: 2px; */
+            /* word-spacing: 20px; */
+        }
+      
+       
+    </style>
 </head>
 
 <body>
     <h1>Welcome to India Tourism</h1>
     <div id="divPopularDEstination">
         <h2>Popular Destinations</h2>
-        <div id="divGoa">
-            <h3>GOA</h3>
+        <div id="divGoa" >
+            <h3 ><span class="material-icons">location_city</span>GOA</h3>
             <h4>Things to do</h4>
             <h5>First one</h5>
             <h6>About first one</h6>
@@ -41,7 +66,7 @@
             <hr>
         </div>
         <div id="divKochi">
-            <h3>KOCHI</h3>
+            <h3><span class="material-icons">location_city</span>KOCHI</h3>
             <h4>Things to do</h4>
             <h5>First one</h5>
             <h6>About first one</h6>
@@ -56,7 +81,7 @@
             <hr>
         </div>
         <div id="divVaranasi">
-            <h3>VARANASI</h3>
+            <h3><span class="material-icons">location_city</span>VARANASI</h3>
             <h4>Things to do</h4>
             <h5>First one</h5>
             <h6>About first one</h6>
@@ -71,7 +96,7 @@
             <hr>
         </div>
         <div id="divSrinagar">
-            <h3>SRI NAGAR</h3>
+            <h3><span class="material-icons">location_city</span>SRI NAGAR</h3>
             <h4>Things to do</h4>
             <h5>First one</h5>
             <h6>About first one</h6>
@@ -89,18 +114,20 @@
     <div id="divClimate">
         <h2>Indian Climate</h2>
         <div id="divSummer">
-            <h3>Summer</h3>
-            <p>During the three months from April to June it is summer in most parts of India.Generally in the month of
+            <h3><span class="fa fa-sun">Summer</span></h3>
+            <p class="ParagraphSpacing">During the three months from April to June it is summer in most parts of
+                India.Generally in the month of
                 April,
-                many parts of India experiences high temperature. The normal temperature recorded in this time in
+                many parts of India experiences high <span> temperature</span>. The normal temperature recorded in this time in
                 generally
                 30°C. But at some places in the plateau region the temperature rises to 40°C and in the Himalayan
                 mountain
                 region, it remains near about 20°C.</p>
         </div>
         <div id="divWinter">
-            <h3>Winter</h3>
-            <p>During the period from December to February there is winter season in India. During this time clouds and
+            <h3> <span class="fa fa-cloud">Winter</span></h3>
+            <p class="ParagraphSpacing">During the period from December to February there is winter season in India.
+                During this time clouds and
                 dry
                 North-East Monsoon passes over different regions of India and temperature is decreased considerably. In
                 Himalayan area the temperature is much lower (between 5°C and 10°C). But sometimes cyclone (coming from
@@ -108,16 +135,18 @@
                 West) causes storm and rainfall which is known as Western disturbance.</p>
         </div>
         <div id="divRainy">
-            <h3>Rainy</h3>
-            <p>The rainy season in India begins generally from the second week of July and continues up to the second
+            <h3><span class="fa fa-cloud-rain">Rainy</span></h3>
+            <p class="ParagraphSpacing">The rainy season in India begins generally from the second week of July and
+                continues up to the second
                 week of
                 October. From the second week of June humid monsoon enters various parts of India and causes rainfall
                 everywhere
                 in the state.</p>
         </div>
         <div id="divSpring">
-            <h3>Spring</h3>
-            <p>The advent of spring brings us the pleasant sound wind begins to blow. It refreshes our body and mind.
+            <h3><span class="fa fa-cloud-sun">Spring</span></h3>
+            <p class="ParagraphSpacing"> The advent of spring brings us the pleasant sound wind begins to blow. It
+                refreshes our body and mind.
                 The
                 countryside appears to be adorned with green leaves and flowers. Birds sing and bees hum in the flower
                 garden.
